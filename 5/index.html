@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1-qism</title>
+</head>
+<body>
+
+    <h1>Form</h1>
+    <section>
+        <h2>Form elementi</h2>
+        <p>Formalar tashkil qilish <strong>form</strong> elementi yordamida amalga oshiriladi va biz uning umumiy ko'rinishi bilan tanishib chiqamiz.</p>
+    </section>
+
+    <section>
+        <h2>Input elementi</h2>
+        <p><strong>Input</strong> - elementidan biz foydalanuvchidan biror-bir malumot olish va biror elementni qidirish uchun foydalanamiz</p>
+
+        <h3>Input turlari:</h3>
+        <ul>
+            <li>Text</li>
+            <li>Number</li>
+            <li>Email</li>
+            <li>password</li>
+            <li>date</li>
+            <li>time</li>
+            <li>url</li>
+            <li>file</li>
+            <li>radio</li>
+            <li>checkbox ...</li>
+        </ul>
+
+        <h3>Inputni label bilan bog'lash</h3>
+        <p>Inputni label bilan bog'lash uchun <strong>label</strong>ga <i>for</i> atributi va <strong>input</strong>ga <i>id</i> atributini bir xil qilib belgilashimiz kerak.</p>
+    </section>
+
+    <h2>Ro'yhatdan o'tish</h2>
+    
+    <form action="https://echo.htmlacademy.ru">
+        
+        <div>
+            <label for="ism">Ismingiz</label><br>
+            <input id="ism" name="Ismi" type="text" placeholder="Ismingizni kiriting" required>
+        </div><br>
+        <div>
+            <label for="email">Email</label><br>
+            <input id="email" name="Email" type="email" placeholder="Emailingizni kiriting" required>
+        </div><br>
+        <div>
+            <label for="password">Parol</label><br>
+            <input id="password" name="Parol" type="password" placeholder="Parolingizni kiriting" required>
+        </div><br>
+
+        
+        
+        <button type="submit">Yuborish</button>
+    </form>
+    
+</body>
+</html>
